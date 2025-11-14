@@ -8,6 +8,7 @@ class SpringBootCicdApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("Spring Context Loaded Successfully!");
 	}
 
 }
