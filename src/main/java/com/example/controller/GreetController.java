@@ -9,9 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetController {
 
 	
-	@GetMapping
+	@GetMapping("/greet")
 	public String sayHello() {
 		return "🚀 Starting my first Jenkins Job";
 	}
 	
+	@GetMapping
+	public String welcome() {
+		return "Welcome in CloudOptimo Server";
+	}
 }
