@@ -11,7 +11,7 @@ public class GreetController {
 	
 	@GetMapping("/greet")
 	public String sayHello() {
-		return "🚀 Starting my first Jenkins Job Using Springboot";
+		return "🚀 Starting my first Jenkins Job";
 	}
 	
 	@GetMapping
